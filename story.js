@@ -9,7 +9,6 @@ function save(){
 function load(){
     currentLocation = JSON.parse(localStorage.getItem('currentLocation'));
     inventory = JSON.parse(localStorage.getItem('inventory'));
-    console.log(currentLocation);
     currentLocation = locations[currentLocation].directions[dir]
         $('#game-text').empty().append("<p>" + locations[currentLocation].description + "</p>");
         $('#game-image').empty().append(locations[currentLocation].image);
@@ -17,6 +16,7 @@ function load(){
         $('#gamebuttons').empty().append(locations[currentLocation].buttonchoice.choice1);
         $('#gamebuttons').append(locations[currentLocation].buttonchoice.choice2);
         $('#gamebuttons').append(locations[currentLocation].buttonchoice.choice3);
+        console.log(currentLocation);
 }
 
 function changeLocation(dir){
