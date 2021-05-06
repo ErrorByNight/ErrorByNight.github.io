@@ -40,7 +40,7 @@ var locations = {
         "image": "<img src='images/chars/MADNEONDEATH.png'>",
         "place":"<img src='images/Places/hell.png'>",
         "buttonchoice":{
-            "choice1": "<button id='choice1'>Restart</button>"
+            "choice1": "<button id='die'>Restart</button>"
         },
         "directions":{
             "choice1": "start"
