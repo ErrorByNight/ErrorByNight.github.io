@@ -68,7 +68,7 @@ var locations = {
             "choice2": "<button id='choice2'>turn around</button>"
         },
         "directions":{
-            "choice1": "boxrun",
+            "choice1": "join",
             "choice2": "allyGood2"
         }
     },
@@ -105,11 +105,12 @@ var locations = {
 
         },
         "buttonchoice":{
-            "choice1": "<button id='choice1'>Nod your head</button>",
-            "choice2": "<button id='choice2'>Shake your head</button>" 
+            "choice1": "<button id='choice1'>TO BE CONTINUED</button>",
+            "choice2": "<button id='choice2'>TO BE CONTINUED</button>" 
     },
         "directions":{
-            "choice1": ""
+            "choice1": "start",
+            "choice2":"start"
         }
         },
     "assassin":{
@@ -162,6 +163,20 @@ var locations = {
                 "choice3": "leave",
             }
     },
+    "askwhy":{
+        "description":"TO BE CONTINUED",
+         "image": "<img src='images/chars/assassin.png'>",
+         "place":"<img src='images/Places/thetesttrytwo.png'>",
+         "buttonchoice":{
+            "choice1": "<button id='choice1'>TO BE CONTINUED</button>",
+            "choice2": "<button id='choice2'>TO BE CONTINUED</button>",
+            "choice3": "<button id='choice3'>TO BE CONTINUED</button>"},
+            "directions":{
+                "choice1": "start",
+                "choice2": "start",
+                "choice3": "start",
+            }
+    },
     "lies":{
         "description":"You run through all of their answers in your head again. Trying to work out who could be the assassin and who could be the traitor. It had to be the last two, you are just unsure which was which. You turn back to the woman. <q>The last person is the traitor, and the second person is the assassin.</q> You state to her trying your best to be confident. She looks at you her eyes gleaming in the dim light. <q>Who said there was only one assassin?</q> She asked. You look at her confused. <q>Well, you did</q>. <q>Who says I do not lie, don’t believe everything someone tells you, ask questions, work things out, but never take someone at their word. Especially when they are a stranger. Trust is to be earnt</q>. You look at her and look back at the people in front of you. Looking around the room you notice that there are cracks in the wooden wall where slight light peaks through from outdoors. Looking back over at the people on the floor you study their body language. None of them look scared, no one is shaking, they all are holding themselves with straight backs. You make up your mind.",
         "image": "<img src='images/chars/assassin.png'>",
@@ -174,6 +189,20 @@ var locations = {
                 "choice1": "lessonlearnt",
                 "choice2": "fail",
                 "choice3": "leave",
+            }
+    },
+    "fail":{
+        "description":"TO BE CONTINUED",
+        "image": "<img src='images/chars/assassin.png'>",
+         "place":"<img src='images/Places/thetesttrytwo.png'>",
+         "buttonchoice":{
+            "choice1": "<button id='choice1'>TO BE CONTINUED</button>",
+            "choice2": "<button id='choice2'>TO BE CONTINUED</button>",
+            "choice3": "<button id='choice3'>Leave</button>"},
+            "directions":{
+                "choice1": "start",
+                "choice2": "start",
+                "choice3": "start",
             }
     },
     "lessonlearnt":{
@@ -202,4 +231,28 @@ var locations = {
                 "choice2": "leave",
             }
     },   
+    "join":{
+        "description": "TO BE CONTINUED",
+        "image": "<img src='images/chars/assassin.png'>",
+         "place":"<img src='images/Places/thetesttrytwo.png'>",
+         "buttonchoice":{
+            "choice1": "<button id='choice1'>TO BE CONTINUED</button>",
+            "choice2": "<button id='choice2'>TO BE CONTINUED</button>",},
+            "directions":{
+                "choice1": "start",
+                "choice2": "start",
+            }
+    },
+    "leave":{
+        "description": "TO BE CONTINUED",
+        "image": "<img src='images/chars/assassin.png'>",
+         "place":"<img src='images/Places/thetesttrytwo.png'>",
+         "buttonchoice":{
+            "choice1": "<button id='choice1'>TO BE CONTINUED</button>",
+            "choice2": "<button id='choice2'>TO BE CONTINUED</button>",},
+            "directions":{
+                "choice1": "start",
+                "choice2": "start",
+            }
+    },
     }
