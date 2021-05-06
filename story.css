@@ -53,6 +53,9 @@
     margin:0%;
     object-fit: cover
 }
+.grid-container > .toolbar{
+    background-color: black;
+}
 /**{
     box-sizing: border-box;
     padding: 0;
