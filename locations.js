@@ -48,7 +48,7 @@ var locations = {
     },
     "allyGood1":{
         "description": "Suddenly there is a loud grunt <br>coming from behind you and then a load smacking sound like a bag of <br>potatoes being dropped to the ground. Do you turn around?",
-        "image": "<img src='images/chars/ninjaColoured.png'>",
+        "image": "",
         "place":"<img src='images/Places/ally.png'>",
         "buttonchoice":{
             "choice1":"<button id='choice1'>don't turn around</button>",
