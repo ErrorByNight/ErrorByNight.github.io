@@ -17,7 +17,7 @@
     'action action action action action action'
     'toolbar toolbar toolbar toolbar toolbar toolbar';
 	grid-gap: 10px;
-	background-color: #8b0000;
+	background-color: black;
 	padding: 10px;
 }
 .grid-container > div{
