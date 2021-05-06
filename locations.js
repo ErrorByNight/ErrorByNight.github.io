@@ -85,7 +85,7 @@ var locations = {
             "choice2": "wimp",
         }},
     "nod":{
-        "description":"You nod your head unphased from the previous encounter as this tended to happen a lot while you have been living on the streets. The mysterious person studies you for a second trying to figure you out. She then nods to herself, looking as if she had just made up her mind about something. <q>You are coming with me!</q> She said.",
+        "description":"You nod your head unphased from <br>the previous encounter as this tended to happen a lot while you have<br> been living on the streets. The mysterious person studies you<br> for a second trying to figure you out. She then nods to herself, looking as<br> if she had just made up her mind about something.<br> <q>You are coming with me!</q> She said.",
         "image": "<img src='images/chars/assassin.png'>",
         "place":"<img src='images/Places/ally.png'>",
         "buttonchoice":{
@@ -97,7 +97,7 @@ var locations = {
             "choice2":"wimp",
         }},
     "wimp":{
-        "description": "You shake your head in fear. The person looks you over to make sure you are not hurt and offers to walk you to where you need to be. You ask if you can go with them, they say that their line of work is not for you and gives you a thin piece of metal on a chain <q>put this around your neck and if you ever need help, snap the piece of metal and I will come.</q><br>(+1 ally)<br>(+1 item)",
+        "description": "You shake your head in fear.<br> The person looks you over to make sure you are not hurt and offers to walk<br> you to where you need to be. You ask if you can go with them,<br> they say that their line of work is not for you and gives you a thin piece<br> of metal on a chain <q>put this around your neck<br> and if you ever need help, snap the piece of metal and I will come.</q><br>(+1 ally)<br>(+1 item)",
         "image": "<img src='images/chars/assassin.png'>",
         "place":"<img src='images/Places/ally.png'>",
         "items":{
@@ -113,7 +113,7 @@ var locations = {
         }
         },
     "assassin":{
-        "description":"She takes you to a part of the city you try to avoid, it has a ton of creeps who hide down back alleys and have a horrid look in their eyes. You look up at her and ask where you are going. She just tells you to stay close. When she finally stops you take a look at your surroundings. She brought you into an old house that looks like it has been abandoned for a long time. It is quite dark inside and you can’t see much. She turns to face you. <q>If you pass this test, I will be able to train you and make sure you don’t end up in that situation again. I can tell you live on the streets, don’t try to deny it. I want to help you but there is only so much I can do.</q> You look up at her confused. She could have told you what you were walking into.",
+        "description":"She takes you to a part of the city you try to avoid,<br> it has a ton of creeps who hide down back alleys and have a horrid look in their eyes.<br> You look up at her and ask where you are going. She just tells you to stay close.<br> When she finally stops you take a look at your surroundings.<br> She brought you into an old house that looks like it has been abandoned for a long time. <br>It is quite dark inside and you can’t see much. She turns to face you.<br> <q>If you pass this test, I will be able to train you and make sure you don’t end up in that situation again.<br> I can tell you live on the streets, don’t try to deny it. I want to help you but there is only so much I can do.</q><br> You look up at her confused. She could have told you what you were walking into.",
          "image": "<img src='images/chars/assassin.png'>",
          "place":"<img src='images/Places/ally.png'>",
          "buttonchoice":{
@@ -125,7 +125,7 @@ var locations = {
             }
     },
     "morals":{
-        "description": "You take a deep breath. You can’t go back to the streets, no matter what. It was horrible and you aren’t sure you would be able to survive much longer out there. You are surprised you lasted as long as you did before you ended up with a knife at your back. <q>What is the test?</q> You ask. <q>It is simple</q> she replies. <q>There are three people in the next room. One of them is a traitor, one of them is an assassin and one of them is a normal person. You must figure out which is which.  You may ask them one question.</q>",
+        "description": "You take a deep breath. You can’t go back to the streets,<br> no matter what. It was horrible and you aren’t sure you would be able to survive much longer out there.<br> You are surprised you lasted as long as you did before you ended up with a knife at your back.<br> <q>What is the test?</q> You ask. <q>It is simple</q> she replies.<br> <q>There are three people in the next room. One of them is a traitor, one of them is an assassin and one of them is a normal person.<br> You must figure out which is which.  You may ask them one question.</q>",
         "image": "<img src='images/chars/assassin.png'>",
          "place":"<img src='images/Places/thetesttrytwo.png'>",
          "buttonchoice":{
@@ -137,7 +137,7 @@ var locations = {
             }
     },
     "traitor":{
-        "description": "You decide that you have come this far, you might as well follow through. You slowly walk up to the people with bags over their heads. What question will you ask?",
+        "description": "You decide that you have come this far, you might as well follow through.<br> You slowly walk up to the people with bags over their heads. What question will you ask?",
         "image": "<img src='images/chars/assassin.png'>",
          "place":"<img src='images/Places/thetesttrytwo.png'>",
          "buttonchoice":{
@@ -149,7 +149,7 @@ var locations = {
             }
     },
     "question":{
-        "description":"You ask the question to the first person. They just give a generic answer that wasn’t worth your time to pay attention to. The next person pauses for a second as if contemplating all the different things they could answer with. They then just say a single word. The last person laughs. You freeze. You know that laugh. You turn to the woman behind you and stare at her. Then turn back around to the last person again. Maybe you are mistaken. You go closer to the last person on the ground and ask them to answer the question. <q>What do you want me to say love? What is the correct answer for a ‘normal person’?</q> They chuckle darkly to themselves putting air quotes around normal person. It was them; it was 100% them no denying it. The person who had held a knife to your back barely any time ago.",
+        "description":"You ask the question to the first person.<br> They just give a generic answer that wasn’t worth your time to pay attention to.<br> The next person pauses for a second as if contemplating all the different things they could answer with.<br> They then just say a single word. The last person laughs. You freeze. You know that laugh.<br> You turn to the woman behind you and stare at her. Then turn back around to the last person again. Maybe you are mistaken.<br> You go closer to the last person on the ground and ask them to answer the question.<br> <q>What do you want me to say love? What is the correct answer for a ‘normal person’?</q><br> They chuckle darkly to themselves putting air quotes around normal person.<br> It was them; it was 100% them no denying it. The person who had held a knife to your back barely any time ago.",
          "image": "<img src='images/chars/assassin.png'>",
          "place":"<img src='images/Places/thetesttrytwo.png'>",
          "buttonchoice":{

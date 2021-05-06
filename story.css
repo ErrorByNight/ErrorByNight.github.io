@@ -12,12 +12,12 @@
 .grid-container{
 	display: grid;
 	grid-template-areas:
-    'story stats inventory inventory armour prog'
-	'person person place place place info'
-    'action action action action action action'
-    'toolbar toolbar toolbar toolbar toolbar toolbar';
+    'story stats inventory inventory armour prog prog'
+	'person person place place place info info'
+    'action action action action action action action'
+    'toolbar toolbar toolbar toolbar toolbar toolbar toolbar';
 	grid-gap: 10px;
-	background-color: black;
+	background-color: #282828;
 	padding: 10px;
 }
 .grid-container > div{
@@ -38,13 +38,13 @@
     
 }
 .grid-container > .choice{
-    background-color: black;
+    background-color: #282828;
 }
 .grid-container > .information-text{
-    background-color: black;
+    background-color: #282828;
 }
 .grid-container > div > button{
-    color:black;
+    color:#282828;
     padding: 90px;
     margin-right: 10%;
 }
