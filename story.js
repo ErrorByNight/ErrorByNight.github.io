@@ -10,14 +10,18 @@ function load(){
     currentLocation = JSON.parse(localStorage.getItem('currentLocation'));
     inventory = JSON.parse(localStorage.getItem('inventory'));
     console.log(currentLocation);
+    currentLocation = locations[currentLocation].directions[dir]
+        $('#game-text').empty().append("<p>" + locations[currentLocation].description + "</p>");
+        $('#game-image').empty().append(locations[currentLocation].image);
+        $('#game-place').empty().append(locations[currentLocation].place);
+        $('#gamebuttons').empty().append(locations[currentLocation].buttonchoice.choice1);
+        $('#gamebuttons').append(locations[currentLocation].buttonchoice.choice2);
+        $('#gamebuttons').append(locations[currentLocation].buttonchoice.choice3);
 }
 
 function changeLocation(dir){
     if(locations[currentLocation].directions[dir] !== undefined){
         currentLocation = locations[currentLocation].directions[dir]
-        //$('#game-text').remove("<p>" + locations[currentLocation].description + "</p>");
-        //$('#game-image').remove(locations[currentLocation].image);
-        //$('#gamebuttons').remove(locations[currentLocation].buttonchoice.choice1);
         $('#game-text').empty().append("<p>" + locations[currentLocation].description + "</p>");
         $('#game-image').empty().append(locations[currentLocation].image);
         $('#game-place').empty().append(locations[currentLocation].place);
