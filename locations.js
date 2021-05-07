@@ -68,9 +68,20 @@ var locations = {
             "choice2": "<button id='choice2'>turn around</button>"
         },
         "directions":{
-            "choice1": "join",
+            "choice1": "alleydeath",
             "choice2": "allyGood2"
         }
+    },
+    "alleydeath":{
+        "description": "You run full speed towards the boxes, jump off them and grab the ladder, you climb up the rusty ladder and feel it start to give out, you fall to your death.",
+        "place":"<img src='images/Places/ally.png'>", 
+        "buttonchoice":{
+            "choice1": "<button id='choice1'>die</button>"
+        },
+        "directions":{
+            "choice1": "deathOne"
+        }      
+
     },
     "allyGood2":{
         "description":"You turn around to see what happened.<q>Are you ok?</q> a voice asks.",
@@ -164,17 +175,14 @@ var locations = {
             }
     },
     "askwhy":{
-        "description":"TO BE CONTINUED",
+        "description":"'Just figure out the test first.'She states.",
          "image": "<img src='images/chars/assassin.png'>",
          "place":"<img src='images/Places/thetesttrytwo.png'>",
          "buttonchoice":{
-            "choice1": "<button id='choice1'>TO BE CONTINUED</button>",
-            "choice2": "<button id='choice2'>TO BE CONTINUED</button>",
-            "choice3": "<button id='choice3'>TO BE CONTINUED</button>"},
+            "choice1": "<button id='choice1'>Figure out the test</button>",
+            },
             "directions":{
-                "choice1": "start",
-                "choice2": "start",
-                "choice3": "start",
+                "choice1": "lies",
             }
     },
     "lies":{
@@ -192,18 +200,15 @@ var locations = {
             }
     },
     "fail":{
-        "description":"TO BE CONTINUED",
+        "description":"You fail the test. She shakes her head disapprovingly. 'I thought you would have the talen.' She states. 'I am sorry' She whispers. You get stabbed from behind.",
         "image": "<img src='images/chars/assassin.png'>",
          "place":"<img src='images/Places/thetesttrytwo.png'>",
          "buttonchoice":{
-            "choice1": "<button id='choice1'>TO BE CONTINUED</button>",
-            "choice2": "<button id='choice2'>TO BE CONTINUED</button>",
-            "choice3": "<button id='choice3'>Leave</button>"},
-            "directions":{
-                "choice1": "start",
-                "choice2": "start",
-                "choice3": "start",
-            }
+            "choice1": "<button id='choice1'>die</button>"
+        },
+        "directions":{
+            "choice1": "deathOne"
+        }     
     },
     "lessonlearnt":{
         "description": "You turn back to her more confident than before having taken in your surroundings and actually paying attention. <q>They are all assassins</q> you state. She smiles. <q>I knew you had a talent.</q> She said. <q>You passed the test</q>. You grin a wide smile, that then faulters when you realise that you don’t know what this test was for. <q>What did I just test for?</q> You ask slightly cautious. <q>Good, you are already taking my advice.<q> She says proudly. <q>If you chose to accept, you can become an assassin. We will provide you with somewhere to sleep, food, water and clothes.</q> You think about this offer for a second.",
@@ -232,27 +237,36 @@ var locations = {
             }
     },   
     "join":{
-        "description": "TO BE CONTINUED",
+        "description": "You turn back to her and nod slowly. She looks behind you with a worried glance, then lunges towards you. She was not fast enough as you look down at the knife going through your chest.",
         "image": "<img src='images/chars/assassin.png'>",
          "place":"<img src='images/Places/thetesttrytwo.png'>",
          "buttonchoice":{
-            "choice1": "<button id='choice1'>TO BE CONTINUED</button>",
-            "choice2": "<button id='choice2'>TO BE CONTINUED</button>",},
+            "choice1": "<button id='choice1'>Turn around</button>",
+         },
             "directions":{
-                "choice1": "start",
-                "choice2": "start",
+                "choice1": "crazed2",
             }
+    },
+    "crazed2":{
+        "description": "You stumble and turn around to see the maniac from earlier with a crazed look in their eyes laughing. This seems familiar you think. You bleed out.",
+        "image": "<img src='images/chars/creepyguyface.png'>",
+        "place":"<img src='images/Places/thetesttrytwo.png'>",   
+        "buttonchoice":{
+            "choice1": "<button id='choice1'>die</button>"
+        },
+        "directions":{
+            "choice1": "deathOne"
+        }     
     },
     "leave":{
-        "description": "TO BE CONTINUED",
+        "description": "You go to leave. The woman looks at you and frowns. 'I am sorry' She says. You get stabbed from behind.",
         "image": "<img src='images/chars/assassin.png'>",
          "place":"<img src='images/Places/thetesttrytwo.png'>",
          "buttonchoice":{
-            "choice1": "<button id='choice1'>TO BE CONTINUED</button>",
-            "choice2": "<button id='choice2'>TO BE CONTINUED</button>",},
-            "directions":{
-                "choice1": "start",
-                "choice2": "start",
-            }
+            "choice1": "<button id='choice1'>die</button>"
+        },
+        "directions":{
+            "choice1": "deathOne"
+        }     
     },
-    }
+}

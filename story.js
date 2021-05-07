@@ -1,7 +1,10 @@
 var currentLocation = "start";
 var inventory = [];
+//https://www.zapsplat.com/music/single-click-screen-press-on-smart-phone-1/
 var audio = new Audio('buttonclick.mp3');
+//https://www.zapsplat.com/music/deep-demonic-male-voice-says-die-2/
 var die = new Audio('die.mp3');
+
 function save(){
     localStorage.setItem('currentLocation', JSON.stringify(currentLocation));
     localStorage.setItem('inventory', JSON.stringify(inventory));
@@ -32,12 +35,14 @@ function showInventory(){
         $('#gametoolbar').empty().append("<p>You are not carrying anything</p>");
         return
     }
+    else{
     $('#gametoolbar').empty().append("<p>Here is your inventory: </p>");
     $('#gametoolbar').append("<p><ul>");
     for(var i = 0; i < commands.length; i++) {
         $('gametoolbar').append("<li>"+ commands[i] + "</li>");
     }
     $('gametoolbar').append("</ul></p>")
+}
 }
 
 function showStats(){
@@ -46,6 +51,8 @@ function showStats(){
 
 
 $(document).ready(function(){
+//    user.name === prompt("What is your name?");
+//   $('#name').clear.append(user.name);
     $('#game-text').append("<p>" + locations.start.description + "</p>");
     $('#game-image').append(locations.start.image);
     $('#gamebuttons').append(locations.start.buttonchoice.choice1);
